@@ -1,0 +1,15 @@
+set -xsthdpdir "./_cg/_dbg/blk_mem_gen_v7_1_xsd"
+run
+-ifn "./_cg/_dbg/blk_mem_gen_v7_1.prj"
+-ifmt VHDL
+-ofmt NGC
+-ofn "./_cg/_dbg/blk_mem_gen_v7_1.ngc"
+-p xc6slx150t-2fgg900
+-iobuf NO
+-work_lib work
+-ent blk_mem_gen_v7_1
+-arch spartan6
+-top blk_mem_gen_v7_1
+-bus_delimiter <>
+-lso "./_cg/_dbg/_default.lso"
+-use_new_parser yes

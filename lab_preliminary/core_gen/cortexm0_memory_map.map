@@ -1,0 +1,38 @@
+Release 14.1 Map P.15xf (nt64)
+Xilinx Map Application Log File for Design 'cortexm0_memory'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx150t-fgg900-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o cortexm0_memory_map.ncd cortexm0_memory.ngd
+cortexm0_memory.pcf 
+Target Device  : xc6slx150t
+Target Package : fgg900
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Fri Oct 18 09:52:14 2019
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
+'2100@ze-ls0.fen.bris.ac.uk,2100@ze-ls1.fen.bris.ac.uk,2100@ze-ls2.fen.bris.ac.u
+k'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:56 - Part 'xc6slx150t' is not a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - Since no license file was found,
+       please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+ERROR:Map:116 - The design is empty.  No processing will be done.
+ERROR:Map:52 - Problem encountered processing RPMs. 
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   0

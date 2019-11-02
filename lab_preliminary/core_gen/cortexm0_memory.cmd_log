@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/kt17059/OneDrive - University of Bristol/Documents/arm_lab/lab_01/core_gen/cortexm0_memory.xst" -ofn "C:/Users/kt17059/OneDrive - University of Bristol/Documents/arm_lab/lab_01/core_gen/cortexm0_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg900-2 "cortexm0_memory.ngc" cortexm0_memory.ngd  
+map -intstyle ise -p xc6slx150t-fgg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cortexm0_memory_map.ncd cortexm0_memory.ngd cortexm0_memory.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150t-fgg900-2 "cortexm0_memory.ngc" cortexm0_memory.ngd  
+map -intstyle ise -p xc6slx150t-fgg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cortexm0_memory_map.ncd cortexm0_memory.ngd cortexm0_memory.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cortexm0_memory.ucf -p xc6slx150t-fgg900-2 "cortexm0_memory.ngc" cortexm0_memory.ngd  
