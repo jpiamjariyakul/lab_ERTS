@@ -68,7 +68,7 @@ BEGIN
   
 END PROCESS; -- combi_nextState
 ----------------------------------------
-combi_setVal: PROCESS(curState, HTRANS, dmao)
+combi_setVal: PROCESS(curState, dmao, HADDR, HSIZE, HTRANS, HWDATA, HWRITE)
   variable v_dmaiStart : std_ulogic;
   variable v_HREADY : std_logic;
 BEGIN
@@ -90,6 +90,12 @@ BEGIN
   -- Outputs vars to actual vals
   dmai.start <= v_dmaiStart;
   HREADY <= v_HREADY;
+  -- Passes values from dmao to other H-based ports
+  dmai.address <= HADDR;
+  dmai.size <= HSIZE;
+  dmai.wdata <= HWDATA;
+  dmai.write <= HWRITE;
+  --dmai.busy <= HTRANS;
 END PROCESS; -- combi_out
 ----------------------------------------
 combi_ResetState: PROCESS (clkm, rstn)

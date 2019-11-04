@@ -26,7 +26,7 @@ entity data_swapper is
 end;
 
 architecture structural of data_swapper is
-  
+  signal R_data : std_logic_vector(31 DOWNTO 0);
 begin
 
 combi_data_swapper: PROCESS(dmao)

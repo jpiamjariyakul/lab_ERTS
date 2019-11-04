@@ -65,8 +65,8 @@ SIGNAL s_HRDATA : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL s_HREADY : STD_LOGIC;
 signal pull_zero: std_logic; -- Signal to pull some ports to zero
 signal pull_zero_vector: std_logic_vector(15 downto 0);
+signal s_led3: std_logic; -- the "LED" that blinks per sequence x"F0F0F0F0F0"
 -- declare a component for CORTEXM0DS
-
 component cortexm0ds
   PORT (
     HCLK : IN STD_LOGIC;
@@ -165,5 +165,16 @@ ahb_map: AHB_bridge
     HRDATA => s_HRDATA,
     HREADY => s_HREADY
   );
+  
+led3_blink: PROCESS(s_HRDATA)
+  variable led3_clocked: std_logic;
+begin
+  led3_clocked := '0';
+  --if rising_edge(clkm) and s_HRDATA = x"F0F0F0F0" then
+  if s_HRDATA = x"F0F0F0F0" then
+    led3_clocked := '1';
+  end if;
+  s_led3 <= led3_clocked;
+end process;
 
 end structural;

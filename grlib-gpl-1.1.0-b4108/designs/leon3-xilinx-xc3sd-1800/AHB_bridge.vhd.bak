@@ -76,6 +76,7 @@ end component data_swapper;
 ----------------------------------------
 signal signal_dmai : ahb_dma_in_type;
 signal signal_dmao : ahb_dma_out_type;
+signal led3: std_logic; -- the "LED" that blinks per sequence x"F0F0F0F0F0"
 --------------------------------------------------------
 --------------------------------------------------------
 begin
@@ -124,5 +125,4 @@ data_swapper_inst: data_swapper
     dmao => signal_dmao,
     clkm => ahb_clk
   );
-
 end structural;
