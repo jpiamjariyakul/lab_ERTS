@@ -30,7 +30,7 @@ entity state_machine is
     HREADY : out std_logic -- AHB stall signal
   );
 end;
-
+--------------------------------------------------------
 architecture structural of state_machine is
   
 TYPE state_type is (idle, instr_fetch);  -- List your states here 	

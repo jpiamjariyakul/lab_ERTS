@@ -69,7 +69,7 @@ BEGIN
 END PROCESS; -- combi_nextState
 ----------------------------------------
 combi_setVal: PROCESS(curState, HTRANS, dmao)
-  variable v_dmaiStart : ahb_dma_out_type;
+  variable v_dmaiStart : std_ulogic;
   variable v_HREADY : std_logic;
 BEGIN
   v_dmaiStart := '0';

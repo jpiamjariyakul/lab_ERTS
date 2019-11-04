@@ -63,6 +63,8 @@ SIGNAL s_HWDATA : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL s_HWRITE : STD_LOGIC;
 SIGNAL s_HRDATA : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL s_HREADY : STD_LOGIC;
+signal pull_zero: std_logic; -- Signal to pull some ports to zero
+signal pull_zero_vector: std_logic_vector(15 downto 0);
 -- declare a component for CORTEXM0DS
 
 component cortexm0ds
@@ -76,7 +78,21 @@ component cortexm0ds
     HWDATA : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     HWRITE : OUT STD_LOGIC;
     HRDATA : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    HREADY : IN STD_LOGIC
+    HREADY : IN STD_LOGIC;
+    
+    HBURST : out std_logic_vector(2 downto 0);
+    HMASTLOCK : out std_logic;
+    HPROT : out std_logic_vector(3 downto 0);
+    HRESP : in std_logic;
+
+    NMI : in std_logic;
+    IRQ : in std_logic_vector(15 downto 0);
+    TXEV : out std_logic;
+    RXEV : in std_logic;
+    LOCKUP : out std_logic;
+    SYSRESETREQ : out std_logic;
+
+    SLEEPING : OUT std_logic
   );
 end component;
 -- declare a component for AHB_bridge
@@ -102,6 +118,8 @@ end component;
 --signal dmao : ahb_dma_out_type;
 
 begin
+  pull_zero <= '0';
+  pull_zero_vector <= x"0000";
 -- Port map between cm0_wrapper and CORTEXM0DS
 cortexm0ds_map: cortexm0ds
   port map (
@@ -114,8 +132,22 @@ cortexm0ds_map: cortexm0ds
     HWDATA => s_HWDATA,
     HWRITE => s_HWRITE,
     HRDATA => s_HRDATA,
-    HREADY => s_HREADY
+    HREADY => s_HREADY,
+  -- Map to open
+    HBURST => open,
+    HMASTLOCK => open,
+    HPROT => open,
+    TXEV => open,
+    LOCKUP => open,
+    SYSRESETREQ => open,
+    SLEEPING => open,
+  -- Map to zero
+    HRESP => pull_zero,
+    NMI => pull_zero,
+    RXEV => pull_zero,
+    IRQ => pull_zero_vector
   );
+  
 -- Port map between cm0_wrapper and AHB_bridge
 ahb_map: AHB_bridge
   port map (
@@ -133,4 +165,5 @@ ahb_map: AHB_bridge
     HRDATA => s_HRDATA,
     HREADY => s_HREADY
   );
+
 end structural;

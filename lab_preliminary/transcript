@@ -1,0 +1,61 @@
+# Compile of CM0_DSSystem.vhd failed with 2 errors.
+# Compile of CORTEXM0DS.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of tb_cortexm0.vhd was successful.
+# Compile of cortexm0_memory.vhd was successful.
+# 5 compiles, 1 failed with 2 errors. 
+vmap -del component_library
+# Removing reference to logical library component_library
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vmap component_library ../source/component_library
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+# Compile of CM0_DSSystem.vhd was successful.
+# Compile of CORTEXM0DS.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of tb_cortexm0.vhd was successful.
+# Compile of cortexm0_memory.vhd was successful.
+# 5 compiles, 0 failed with no errors. 
+run 1000 us
+# No Design Loaded!
+vsim -gui work.tb_cortexm0
+# vsim -gui work.tb_cortexm0 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: E:/lab_ERTS/lab_preliminary/CM0_DSSystem.vhd(148): (vopt-1127) Entity component_library.detectorbus was not selected for default binding because it is out of date relative to dependency unisim.vcomponents. 
+# ** Warning: [1] E:/lab_ERTS/lab_preliminary/CM0_DSSystem.vhd(148): (vopt-3473) Component instance "Inst_Detector : DetectorBus" is not bound.
+# 
+# ** Error: E:/lab_ERTS/lab_preliminary/cortexm0_memory.vhd(54): Vopt Compiler exiting
+# Error loading design
+vmap -del component_library
+# Removing reference to logical library component_library
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vmap component_library E:/lab_ERTS/source/component_library
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vsim -gui work.tb_cortexm0
+# vsim -gui work.tb_cortexm0 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: E:/lab_ERTS/lab_preliminary/CM0_DSSystem.vhd(148): (vopt-1127) Entity component_library.detectorbus was not selected for default binding because it is out of date relative to dependency unisim.vcomponents. 
+# ** Warning: [1] E:/lab_ERTS/lab_preliminary/CM0_DSSystem.vhd(148): (vopt-3473) Component instance "Inst_Detector : DetectorBus" is not bound.
+# 
+# ** Error: E:/lab_ERTS/lab_preliminary/cortexm0_memory.vhd(54): Vopt Compiler exiting
+# Error loading design
+vmap -del UNISIM
+# Removing reference to logical library UNISIM
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vmap UNISIM C:/Xilinx/14.1/ISE_DS/ISE/vhdl/mti_se/10.1b/nt64/unisim
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vmap -del xilinxcorelib
+# Removing reference to logical library xilinxcorelib
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vmap xilinxcorelib C:/Xilinx/14.1/ISE_DS/ISE/vhdl/mti_se/10.1b/nt64/xilinxcorelib
+# Modifying E:/lab_ERTS/lab_preliminary/arm_lab_4.mpf
+vsim -gui work.tb_cortexm0
+# vsim -gui work.tb_cortexm0 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: E:/lab_ERTS/lab_preliminary/tb_cortexm0.vhd(42): (vopt-1127) Entity work.cm0_dssystem was not selected for default binding because it is out of date relative to dependency unisim.vcomponents. 
+# ** Warning: [1] E:/lab_ERTS/lab_preliminary/tb_cortexm0.vhd(42): (vopt-3473) Component instance "DUT : CM0_DSSystem" is not bound.
+# 
+# Optimization failed
+# Error loading design
