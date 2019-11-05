@@ -49,7 +49,9 @@ entity cm0_wrapper is
     rstn : in std_logic;
     -- AHB Master records
     ahbmi : in ahb_mst_in_type;
-    ahbmo : out ahb_mst_out_type
+    ahbmo : out ahb_mst_out_type;
+    -- TESTING: cm0_led
+    cm0_led: out std_logic
   );
 end entity;
 --------------------------------------------------------
@@ -176,5 +178,7 @@ begin
   end if;
   s_led3 <= led3_clocked;
 end process;
+
+cm0_led <= s_led3;
 
 end structural;
