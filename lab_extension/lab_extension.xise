@@ -17,31 +17,96 @@
   <files>
     <file xil_pn:name="AHB_bridge.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="19"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="19"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
     </file>
     <file xil_pn:name="cm0_wrapper.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="20"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="20"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="19"/>
     </file>
     <file xil_pn:name="CORTEXM0DS.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="21"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="21"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="11"/>
     </file>
     <file xil_pn:name="cortexm0ds_logic.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="22"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="22"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
     </file>
     <file xil_pn:name="data_swapper.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="23"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="23"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
     </file>
     <file xil_pn:name="state_machine.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="24"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="24"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
     </file>
     <file xil_pn:name="ahbmst.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="25"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="25"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/misc/vhdlsyn.txt" xil_pn:type="FILE_USERDOC"/>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/amba/vhdlsim.txt" xil_pn:type="FILE_USERDOC"/>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/amba/vhdlsyn.txt" xil_pn:type="FILE_USERDOC"/>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/vhdlsim.txt" xil_pn:type="FILE_USERDOC"/>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/vhdlsyn.txt" xil_pn:type="FILE_USERDOC"/>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/amba/amba.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="121"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+      <library xil_pn:name="grlib"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/amba/devices.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="122"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+      <library xil_pn:name="grlib"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/stdlib.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="123"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <library xil_pn:name="grlib"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/misc/misc.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="124"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/memctrl.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="125"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/leon3/leon3.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="126"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="16"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/uart/uart.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="127"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="14"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtag.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="128"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="17"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/gaisler/net/net.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="129"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="15"/>
+      <library xil_pn:name="gaisler"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="130"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+      <library xil_pn:name="techmap"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="131"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="13"/>
+      <library xil_pn:name="techmap"/>
+    </file>
+    <file xil_pn:name="../grlib-gpl-1.1.0-b4108/lib/esa/memoryctrl/memoryctrl.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="132"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="18"/>
+      <library xil_pn:name="esa"/>
     </file>
   </files>
 
@@ -409,7 +474,12 @@
 
   <bindings/>
 
-  <libraries/>
+  <libraries>
+    <library xil_pn:name="esa"/>
+    <library xil_pn:name="gaisler"/>
+    <library xil_pn:name="grlib"/>
+    <library xil_pn:name="techmap"/>
+  </libraries>
 
   <autoManagedFiles>
     <!-- The following files are identified by `include statements in verilog -->

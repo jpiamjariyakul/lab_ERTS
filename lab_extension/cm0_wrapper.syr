@@ -1,0 +1,142 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: cm0_wrapper.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cm0_wrapper.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cm0_wrapper"
+Output Format                      : NGC
+Target Device                      : xc6slx100-2-fgg676
+
+---- Source Options
+Top Module Name                    : cm0_wrapper
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\lab_ERTS\lab_extension\cortexm0ds_logic.v" into library work
+Parsing module <cortexm0ds_logic>.
+Analyzing Verilog file "E:\lab_ERTS\lab_extension\CORTEXM0DS.v" into library work
+Parsing module <CORTEXM0DS>.
+Parsing VHDL file "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" into library grlib
+ERROR:HDLCompiler:104 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 33: Cannot find <version> in library <grlib>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+Parsing package <stdlib>.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 37: <grlib_version> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 38: <grlib_build> is not declared.
+ERROR:HDLCompiler:854 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 35: Unit <stdlib> ignored due to previous errors.
+Parsing package body <stdlib>.
+ERROR:HDLCompiler:688 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 119: Package declaration stdlib is not yet compiled
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 121: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 122: <boolean> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 124: <res> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 128: <res> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 131: <std_ulogic> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 132: <boolean> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 134: <res> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 138: <res> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 143: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 144: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 145: <integer> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 147: <res> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 148: <i> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 149: <res> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4471028 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

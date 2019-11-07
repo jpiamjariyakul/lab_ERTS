@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="104" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 33: Cannot find &lt;<arg fmt="%s" index="1">version</arg>&gt; in library &lt;<arg fmt="%s" index="2">grlib</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 37: &lt;<arg fmt="%s" index="1">grlib_version</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 38: &lt;<arg fmt="%s" index="1">grlib_build</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 35: Unit &lt;<arg fmt="%s" index="1">stdlib</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="688" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 119: Package declaration <arg fmt="%s" index="1">stdlib</arg> is not yet compiled
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 121: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 122: &lt;<arg fmt="%s" index="1">boolean</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 124: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 128: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 131: &lt;<arg fmt="%s" index="1">std_ulogic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 132: &lt;<arg fmt="%s" index="1">boolean</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 134: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 138: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 143: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 144: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 145: &lt;<arg fmt="%s" index="1">integer</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 147: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 148: &lt;<arg fmt="%s" index="1">i</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\grlib-gpl-1.1.0-b4108\lib\grlib\stdlib\stdlib.vhd" Line 149: &lt;<arg fmt="%s" index="1">res</arg>&gt; is not declared.
+</msg>
+
+</messages>
+
