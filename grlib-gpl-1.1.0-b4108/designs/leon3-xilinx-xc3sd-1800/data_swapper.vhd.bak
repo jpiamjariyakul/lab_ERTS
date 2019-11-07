@@ -26,15 +26,17 @@ entity data_swapper is
 end;
 
 architecture structural of data_swapper is
-  
+  signal R_data : std_logic_vector(31 DOWNTO 0);
 begin
 
-combi_data_swapper: PROCESS(dmao)
-BEGIN  
-    HRDATA(31 downto 24) <= dmao.rdata(7 downto 0);
-    HRDATA(23 downto 16) <= dmao.rdata(15 downto 8);
-    HRDATA(15 downto 8) <= dmao.rdata(23 downto 16);
-    HRDATA(7 downto 0) <= dmao.rdata(31 downto 24);
+combi_data_swapper: PROCESS(clkm, dmao)
+BEGIN
+    --if rising_edge(clkm) then
+      HRDATA(31 downto 24) <= dmao.rdata(7 downto 0);
+      HRDATA(23 downto 16) <= dmao.rdata(15 downto 8);
+      HRDATA(15 downto 8) <= dmao.rdata(23 downto 16);
+      HRDATA(7 downto 0) <= dmao.rdata(31 downto 24);
+    --end if;
 END PROCESS; 
 
 end structural;

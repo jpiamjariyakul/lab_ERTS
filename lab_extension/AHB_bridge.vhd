@@ -1,0 +1,127 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library grlib;
+use grlib.amba.all;
+use grlib.stdlib.all;
+use grlib.devices.all;
+library gaisler;
+use gaisler.misc.all;
+library UNISIM;
+use UNISIM.VComponents.all;
+
+-- 
+--use work.ahbmst.all;
+
+entity AHB_bridge is
+  port(
+    -- Clock and Reset -----------------
+    ahb_clk : in std_logic;
+    ahb_rst : in std_logic;
+    -- AHB Master records --------------
+    ahbi : in ahb_mst_in_type;
+    ahbo : out ahb_mst_out_type;
+    -- ARM Cortex-M0 AHB-Lite signals --
+    HADDR : in std_logic_vector (31 downto 0); -- AHB transaction address
+    HSIZE : in std_logic_vector (2 downto 0); -- AHB size: byte, half-word or word
+    HTRANS : in std_logic_vector (1 downto 0); -- AHB transfer: nonsequential only
+    HWDATA : in std_logic_vector (31 downto 0); -- AHB write-data
+    HWRITE : in std_logic; -- AHB write control
+    HRDATA : out std_logic_vector (31 downto 0); -- AHB read-data
+    HREADY : out std_logic -- AHB stall signal
+  );
+end;
+--------------------------------------------------------
+--------------------------------------------------------
+architecture structural of AHB_bridge is
+----------------------------------------
+-- declare a component for state_machine
+component state_machine is
+  port(
+    HADDR : in std_logic_vector (31 downto 0);
+    HSIZE : in std_logic_vector (2 downto 0);
+    HTRANS : in std_logic_vector (1 downto 0);
+    HWDATA : in std_logic_vector (31 downto 0);
+    HWRITE : in std_logic;
+    HREADY : out std_logic;
+    
+    dmai: out ahb_dma_in_type;
+    dmao: in ahb_dma_out_type;
+    
+    clkm : in std_logic;
+    rstn : in std_logic
+  );
+end component state_machine;
+----------------------------------------
+-- declare a component for ahbmst
+component ahbmst is
+  port(
+    dmai: in ahb_dma_in_type;
+    dmao: out ahb_dma_out_type;
+    clk : in std_logic;
+    rst: in std_logic;
+    ahbo: out ahb_mst_out_type;
+    ahbi: in  ahb_mst_in_type
+  );
+end component ahbmst;
+----------------------------------------
+-- declare a component for data_swapper
+component data_swapper is
+  port(
+    dmao: in ahb_dma_out_type;
+    HRDATA: out std_logic_vector (31 downto 0);
+    clkm : in std_logic
+  );
+end component data_swapper;
+----------------------------------------
+signal signal_dmai : ahb_dma_in_type;
+signal signal_dmao : ahb_dma_out_type;
+--------------------------------------------------------
+--------------------------------------------------------
+begin
+--------------------------------------------------------
+--------------------------------------------------------
+-- instantiate state_machine component and make the connections
+state_machine_inst: state_machine
+  port map (
+    --HADDR => HADDR(31 downto 0),
+    --HSIZE => HSIZE(2 downto 0),
+    --HTRANS => HTRANS(1 downto 0),
+    --HWDATA => HWDATA(31 downto 0),
+    --HWRITE => HWRITE,
+    --HREADY => HWRITE,
+    --dmai => signal_dmai,
+    --dmao => signal_dmao,
+    --ahb_clk => clkm,
+    --ahb_rst => rstn
+    HADDR => HADDR(31 downto 0),
+    HSIZE => HSIZE(2 downto 0),
+    HTRANS => HTRANS(1 downto 0),
+    HWDATA => HWDATA(31 downto 0),
+    HWRITE => HWRITE,
+    HREADY => HREADY,
+    dmai => signal_dmai,
+    dmao => signal_dmao,
+    clkm => ahb_clk,
+    rstn => ahb_rst
+  );
+--------------------------------------------------------
+-- instantiate the ahbmst component and make the connections
+ahbmst_inst: ahbmst
+  port map (
+    ahbi => ahbi,
+    ahbo => ahbo,
+    dmai => signal_dmai,
+    dmao => signal_dmao,
+    clk => ahb_clk,
+    rst => ahb_rst
+  );
+--------------------------------------------------------
+-- instantiate the data_swapper component and make the connections
+data_swapper_inst: data_swapper
+  port map (
+    HRDATA => HRDATA(31 downto 0),
+    dmao => signal_dmao,
+    clkm => ahb_clk
+  );
+end structural;

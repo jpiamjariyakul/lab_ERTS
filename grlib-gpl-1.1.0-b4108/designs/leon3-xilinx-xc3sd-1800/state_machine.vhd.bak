@@ -35,7 +35,6 @@ architecture structural of state_machine is
   
 TYPE state_type is (idle, instr_fetch);  -- List your states here 	
 SIGNAL curState, nextState: STATE_TYPE;
-signal led3: std_logic;
 begin
   
 combi_nextState: process(curState, HTRANS, dmao)
@@ -80,9 +79,8 @@ BEGIN
     if HTRANS = "10" THEN
       v_dmaiStart := '1';
     end if;
-  END IF;
   -- state instr_fetch
-  IF curState = instr_fetch THEN
+  ELSIF curState = instr_fetch THEN
     v_HREADY := '0';
     if dmao.ready = '1' THEN
       v_HREADY := '1';
