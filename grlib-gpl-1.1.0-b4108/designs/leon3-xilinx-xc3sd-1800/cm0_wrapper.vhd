@@ -6,18 +6,18 @@ library grlib;
 use grlib.amba.all;
 use grlib.stdlib.all;
 use grlib.devices.all;
-library techmap;
-use techmap.gencomp.all;
-use techmap.allclkgen.all;
+--library techmap;
+--use techmap.gencomp.all;
+--use techmap.allclkgen.all;
 library gaisler;
-use gaisler.memctrl.all;
-use gaisler.leon3.all;
-use gaisler.uart.all;
+--use gaisler.memctrl.all;
+--use gaisler.leon3.all;
+--use gaisler.uart.all;
 use gaisler.misc.all;
-use gaisler.net.all;
-use gaisler.jtag.all;
-library esa;
-use esa.memoryctrl.all;
+--use gaisler.net.all;
+--use gaisler.jtag.all;
+--library esa;
+--use esa.memoryctrl.all;
 
 use work.config.all;
 

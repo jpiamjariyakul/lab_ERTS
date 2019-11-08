@@ -10,14 +10,14 @@ library techmap;
 use techmap.gencomp.all;
 use techmap.allclkgen.all;
 library gaisler;
-use gaisler.memctrl.all;
-use gaisler.leon3.all;
-use gaisler.uart.all;
+--use gaisler.memctrl.all;
+--use gaisler.leon3.all;
+--use gaisler.uart.all;
 use gaisler.misc.all;
-use gaisler.net.all;
-use gaisler.jtag.all;
-library esa;
-use esa.memoryctrl.all;
+--use gaisler.net.all;
+--use gaisler.jtag.all;
+--library esa;
+--use esa.memoryctrl.all;
 
 use work.config.all;
 
@@ -172,12 +172,14 @@ led3_blink: PROCESS(clkm, s_HRDATA)
   --variable led3_clocked: std_logic;
 begin
   --if rising_edge(clkm) and s_HRDATA = x"F0F0F0F0" then
-  if rising_edge(clkm) and (s_HRDATA = x"F0F0F0F0") then
+  if rising_edge(clkm) then
+    if s_HRDATA = x"F0F0F0F0" then
     --led3_clocked := '1';
-    cm0_led <= '1';
-  else
-    --led3_clocked := '0';
-    cm0_led <= '0';
+      cm0_led <= '1';
+    else
+      --led3_clocked := '0';
+      cm0_led <= '0';
+    end if;
   end if;
   --cm0_led <= led3_clocked;
 end process;
