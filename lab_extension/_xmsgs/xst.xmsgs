@@ -5,61 +5,25 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="104" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 5: Cannot find &lt;<arg fmt="%s" index="1">amba</arg>&gt; in library &lt;<arg fmt="%s" index="2">grlib</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+<msg type="warning" file="HDLCompiler" num="102" delta="old" ><arg fmt="%s" index="1">circular dependecy found for file </arg><arg fmt="%s" index="2">E:\lab_ERTS\lab_extension\gencomp.vhd</arg><arg fmt="%s" index="3"> while ordering</arg><arg fmt="%s" index="4"></arg><arg fmt="%s" index="5"></arg>
 </msg>
 
-<msg type="error" file="HDLCompiler" num="104" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 6: Cannot find &lt;<arg fmt="%s" index="1">stdlib</arg>&gt; in library &lt;<arg fmt="%s" index="2">grlib</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+<msg type="error" file="HDLCompiler" num="104" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 11: Cannot find &lt;<arg fmt="%s" index="1">gencomp</arg>&gt; in library &lt;<arg fmt="%s" index="2">techmap</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="104" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 7: Cannot find &lt;<arg fmt="%s" index="1">devices</arg>&gt; in library &lt;<arg fmt="%s" index="2">grlib</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 15: &lt;<arg fmt="%s" index="1">spartan3</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="104" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 9: Cannot find &lt;<arg fmt="%s" index="1">misc</arg>&gt; in library &lt;<arg fmt="%s" index="2">gaisler</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 16: &lt;<arg fmt="%s" index="1">spartan3</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 21: &lt;<arg fmt="%s" index="1">ahb_dma_in_type</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 17: &lt;<arg fmt="%s" index="1">spartan3</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 22: &lt;<arg fmt="%s" index="1">ahb_dma_out_type</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 21: &lt;<arg fmt="%s" index="1">spartan3</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="854" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 13: Unit &lt;<arg fmt="%s" index="1">state_machine</arg>&gt; ignored due to previous errors.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="374" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 34: Entity &lt;<arg fmt="%s" index="1">state_machine</arg>&gt; is not yet compiled.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 46: &lt;<arg fmt="%s" index="1">htrans</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 55: &lt;<arg fmt="%s" index="1">dmao</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 40: &lt;<arg fmt="%s" index="1">htrans</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 72: &lt;<arg fmt="%s" index="1">std_ulogic</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 73: &lt;<arg fmt="%s" index="1">std_logic</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 75: &lt;<arg fmt="%s" index="1">v_dmaistart</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 78: &lt;<arg fmt="%s" index="1">v_hready</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 80: &lt;<arg fmt="%s" index="1">v_dmaistart</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 79: &lt;<arg fmt="%s" index="1">htrans</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 84: &lt;<arg fmt="%s" index="1">v_hready</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"E:\lab_ERTS\lab_extension\state_machine.vhd" Line 86: &lt;<arg fmt="%s" index="1">v_hready</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"E:\lab_ERTS\lab_extension\config.vhd" Line 13: Unit &lt;<arg fmt="%s" index="1">config</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>

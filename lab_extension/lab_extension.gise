@@ -64,17 +64,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1573222099" xil_pn:in_ck="-1026241996280623619" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-4906454059183985969" xil_pn:start_ts="1573222086">
+    <transform xil_pn:end_ts="1573226602" xil_pn:in_ck="8287082616387491965" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-4906454059183985969" xil_pn:start_ts="1573226595">
       <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="cm0_wrapper.lso"/>
-      <outfile xil_pn:name="cm0_wrapper.prj"/>
-      <outfile xil_pn:name="cm0_wrapper.syr"/>
-      <outfile xil_pn:name="cm0_wrapper.xst"/>
-      <outfile xil_pn:name="cm0_wrapper_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1573152636" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8223118429200972972" xil_pn:start_ts="1573152636">
       <status xil_pn:value="SuccessfullyRun"/>

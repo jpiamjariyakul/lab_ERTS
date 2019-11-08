@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: cm0_wrapper.prj
 
@@ -105,38 +105,25 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
+WARNING:HDLCompiler:102 - "Unknown" Line 0: circular dependecy found for file E:\lab_ERTS\lab_extension\gencomp.vhd while ordering
 Analyzing Verilog file "E:\lab_ERTS\lab_extension\cortexm0ds_logic.v" into library work
 Parsing module <cortexm0ds_logic>.
 Analyzing Verilog file "E:\lab_ERTS\lab_extension\CORTEXM0DS.v" into library work
 Parsing module <CORTEXM0DS>.
-Parsing VHDL file "E:\lab_ERTS\lab_extension\state_machine.vhd" into library work
-ERROR:HDLCompiler:104 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 5: Cannot find <amba> in library <grlib>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
-ERROR:HDLCompiler:104 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 6: Cannot find <stdlib> in library <grlib>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
-ERROR:HDLCompiler:104 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 7: Cannot find <devices> in library <grlib>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
-ERROR:HDLCompiler:104 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 9: Cannot find <misc> in library <gaisler>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
-Parsing entity <state_machine>.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 21: <ahb_dma_in_type> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 22: <ahb_dma_out_type> is not declared.
-ERROR:HDLCompiler:854 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 13: Unit <state_machine> ignored due to previous errors.
-Parsing architecture <structural> of entity <state_machine>.
-ERROR:HDLCompiler:374 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 34: Entity <state_machine> is not yet compiled.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 46: <htrans> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 55: <dmao> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 40: <htrans> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 72: <std_ulogic> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 73: <std_logic> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 75: <v_dmaistart> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 78: <v_hready> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 80: <v_dmaistart> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 79: <htrans> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 84: <v_hready> is not declared.
-ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\state_machine.vhd" Line 86: <v_hready> is not declared.
-Sorry, too many errors..
+Parsing VHDL file "E:\lab_ERTS\lab_extension\config.vhd" into library grlib
+ERROR:HDLCompiler:104 - "E:\lab_ERTS\lab_extension\config.vhd" Line 11: Cannot find <gencomp> in library <techmap>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+Parsing package <config>.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\config.vhd" Line 15: <spartan3> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\config.vhd" Line 16: <spartan3> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\config.vhd" Line 17: <spartan3> is not declared.
+ERROR:HDLCompiler:69 - "E:\lab_ERTS\lab_extension\config.vhd" Line 21: <spartan3> is not declared.
+ERROR:HDLCompiler:854 - "E:\lab_ERTS\lab_extension\config.vhd" Line 13: Unit <config> ignored due to previous errors.
+VHDL file E:\lab_ERTS\lab_extension\config.vhd ignored due to errors
 --> 
 
-Total memory usage is 4487784 kilobytes
+Total memory usage is 4471020 kilobytes
 
-Number of errors   :   19 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of errors   :    6 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
