@@ -1,0 +1,4 @@
+work	"CM0_DSSystem.vhd"
+work	"CORTEXM0DS.v"
+work	"cortexm0_memory.vhd"
+work	"cortexm0ds_logic.v"

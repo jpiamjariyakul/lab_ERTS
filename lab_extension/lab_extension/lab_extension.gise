@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab_extension.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CM0_DSSystem.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CM0_DSSystem.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CM0_DSSystem.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CM0_DSSystem.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CM0_DSSystem.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CM0_DSSystem.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CM0_DSSystem.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CM0_DSSystem.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CM0_DSSystem.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CM0_DSSystem_envsettings.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CM0_DSSystem_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CM0_DSSystem_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CM0_DSSystem_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4045580289641168570" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5466697958115186369" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="318157528976357512" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="7424531393529281855" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229505" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4482353916943989193" xil_pn:start_ts="1573229505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229879" xil_pn:in_ck="-2855119238164039325" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="720468008110516846" xil_pn:start_ts="1573229820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CM0_DSSystem.lso"/>
+      <outfile xil_pn:name="CM0_DSSystem.ngc"/>
+      <outfile xil_pn:name="CM0_DSSystem.ngr"/>
+      <outfile xil_pn:name="CM0_DSSystem.prj"/>
+      <outfile xil_pn:name="CM0_DSSystem.stx"/>
+      <outfile xil_pn:name="CM0_DSSystem.syr"/>
+      <outfile xil_pn:name="CM0_DSSystem.xst"/>
+      <outfile xil_pn:name="CM0_DSSystem_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229564" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5592418928322134733" xil_pn:start_ts="1573229564">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1573229886" xil_pn:in_ck="-7801316235928075007" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3306482687403953792" xil_pn:start_ts="1573229879">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CM0_DSSystem.bld"/>
+      <outfile xil_pn:name="CM0_DSSystem_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>
