@@ -485,6 +485,8 @@ Permission denied. (errno = EACCES)
 
 } {} {}} ../../lib/gaisler/leon3/tbufmem.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/leon3/tbufmem.vhd
 
+} {} {}} data_swapper.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt E:/lab_ERTS/grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd
+
 } {} {}} ../../lib/gaisler/jtag/jtag.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtag.vhd
 
 } {} {}} ../../lib/techmap/maps/lvds_combo.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd

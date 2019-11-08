@@ -12,10 +12,10 @@ Z5 DPx5 grlib 4 amba 0 22 f_JkUSh>VSK]e^QdO^JMD0
 Z6 DPx7 techmap 7 gencomp 0 22 fA@NZ:l4lLPzZlfC6BX<H0
 Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z9 w1309258594
-Z10 dE:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd
+Z9 w1309262194
+Z10 dO:\Documents\eejlny\teaching\ERTS\arm_lab\bridge_lab\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd
 l0
 L31
 Vce2LeHMGTnQzYoUO:1^;W3
@@ -26,9 +26,9 @@ Z13 o-work techmap -93 -source -nowarn 1 -nowarn 5 -cover s
 Z14 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
 !s100 jeS293HnBMmzX?;0T4]>]3
 !i10b 1
-!s108 1573144483.880000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd|
+!s108 1348674361.202000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allclkgen.vhd|
 Pallddr
 R1
 R2
@@ -40,8 +40,8 @@ R7
 R8
 R9
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd
 l0
 L31
 VFG[AX:c_PloIYDN;fz6K52
@@ -52,16 +52,16 @@ R13
 R14
 !s100 bCcL0>9LGg7QCnZi8imkm3
 !i10b 1
-!s108 1573144484.792000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd|
+!s108 1348674361.764000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allddr.vhd|
 Pallmem
 R7
 R8
 R9
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd
 l0
 L29
 V;V_Z@8eCU4^Tm2XnPLJZ^1
@@ -72,16 +72,16 @@ R13
 R14
 !s100 oQlXYY2L`e4P;8:6ghJU]2
 !i10b 1
-!s108 1573144485.668000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd|
+!s108 1348674362.249000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmem.vhd|
 Pallmul
 R7
 R8
 R9
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd
 l0
 L29
 VmbbR@APd`XJfe6l?hNeYQ3
@@ -92,9 +92,9 @@ R13
 R14
 !s100 PBE44goDV9cn6g`iVmLE]2
 !i10b 1
-!s108 1573144486.286000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd|
+!s108 1348674362.842000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allmul.vhd|
 Pallpads
 R1
 R2
@@ -106,8 +106,8 @@ R7
 R8
 R9
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd
 l0
 L31
 VGEG?UbQzAC?z37lXhMR531
@@ -118,16 +118,16 @@ R13
 R14
 !s100 KZmP8ede25H3kdm6PeEES0
 !i10b 1
-!s108 1573144486.720000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd|
+!s108 1348674363.538000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/allpads.vhd|
 Palltap
 R7
 R8
 R9
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd
 l0
 L30
 V<A1CDhZI`3>P9]XQJ_5101
@@ -138,9 +138,9 @@ R13
 R14
 !s100 VG5SM^5KfB`TZjAal9c:W1
 !i10b 1
-!s108 1573144487.201000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd|
+!s108 1348674364.233000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/alltap.vhd|
 Eclkand
 R9
 Z15 DPx4 work 9 allclkgen 0 22 ce2LeHMGTnQzYoUO:1^;W3
@@ -153,16 +153,16 @@ Z16 DPx4 work 7 gencomp 0 22 fA@NZ:l4lLPzZlfC6BX<H0
 R7
 R8
 R10
-Z17 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd
-Z18 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd
+Z17 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd
+Z18 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd
 l0
 L31
 Vi:V2cfCFil]G5d6fDlDh10
 R11
 31
-Z19 !s108 1573144488.545000
-Z20 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd|
-Z21 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd|
+Z19 !s108 1348674366.217000
+Z20 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd|
+Z21 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkand.vhd|
 R12
 R13
 R14
@@ -198,16 +198,16 @@ Z22 DEx6 unisim 7 bufgmux 0 22 A<MCIU4Y@XhTAHXi3=Coj0
 R7
 R8
 R10
-Z23 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd
-Z24 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd
+Z23 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd
+Z24 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd
 l0
 L925
 VeBdLXGH>]g5oDDDlOOk<H1
 R11
 31
-Z25 !s108 1573144460.596000
-Z26 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd|
-Z27 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd|
+Z25 !s108 1348674342.545000
+Z26 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd|
+Z27 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/clkgen_unisim.vhd|
 R12
 R13
 R14
@@ -238,16 +238,16 @@ R22
 R7
 R8
 R10
-Z30 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd
-Z31 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd
+Z30 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd
+Z31 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd
 l0
 L34
 Vm]1_CY9l;Vll2IhzE;d2D2
 R11
 31
-Z32 !s108 1573144456.838000
-Z33 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd|
-Z34 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd|
+Z32 !s108 1348674337.998000
+Z33 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd|
+Z34 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/buffer_unisim.vhd|
 R12
 R13
 R14
@@ -282,16 +282,16 @@ R6
 R7
 R8
 R10
-Z36 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd
-Z37 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd
+Z36 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd
+Z37 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd
 l0
 L32
 VZi^aP:BL>=Ieibg8jlRWh2
 R11
 31
-Z38 !s108 1573144487.568000
-Z39 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd|
-Z40 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd|
+Z38 !s108 1348674364.733000
+Z39 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd|
+Z40 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkgen.vhd|
 R12
 R13
 R14
@@ -602,16 +602,16 @@ R16
 R7
 R8
 R10
-Z46 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd
-Z47 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd
+Z46 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd
+Z47 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd
 l0
 L31
 VEb[KcHzX8@ek^OOM<RkG<1
 R11
 31
-Z48 !s108 1573144488.052000
-Z49 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd|
-Z50 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd|
+Z48 !s108 1348674365.483000
+Z49 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd|
+Z50 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkmux.vhd|
 R12
 R13
 R14
@@ -729,16 +729,16 @@ R6
 R7
 R8
 R10
-Z52 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd
-Z53 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd
+Z52 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd
+Z53 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd
 l0
 L32
 VS9K=[NmV9Ro2@nU=BWh_n0
 R11
 31
-Z54 !s108 1573144495.838000
-Z55 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd|
-Z56 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd|
+Z54 !s108 1348674374.741000
+Z55 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd|
+Z56 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad.vhd|
 R12
 R13
 R14
@@ -780,16 +780,16 @@ R6
 R7
 R8
 R10
-Z57 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd
-Z58 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd
+Z57 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd
+Z58 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd
 l0
 L32
 VhU1d3gYYjT@=<bNQH7__a2
 R11
 31
-Z59 !s108 1573144496.493000
-Z60 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd|
-Z61 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd|
+Z59 !s108 1348674375.553000
+Z60 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd|
+Z61 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/clkpad_ds.vhd|
 R12
 R13
 R14
@@ -880,16 +880,16 @@ R2
 R7
 R8
 R10
-Z64 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd
-Z65 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd
+Z64 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd
+Z65 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd
 l0
 L35
 VMz`YhQlFPAzofP=5iK>8N3
 R11
 31
-Z66 !s108 1573144515.352000
-Z67 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd|
-Z68 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd|
+Z66 !s108 1348674388.280000
+Z67 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd|
+Z68 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/cpu_disas_net.vhd|
 R12
 R13
 R14
@@ -929,16 +929,16 @@ R2
 R7
 R8
 R10
-Z70 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd
-Z71 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd
+Z70 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd
+Z71 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd
 l0
 L223
 VoBM[aJBHeNZE]O82@8MNN2
 R11
 31
-Z72 !s108 1573144490.212000
-Z73 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd|
-Z74 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd|
+Z72 !s108 1348674368.358000
+Z73 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd|
+Z74 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddrphy.vhd|
 R12
 R13
 R14
@@ -980,16 +980,16 @@ R6
 R7
 R8
 R10
-Z75 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd
-Z76 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd
+Z75 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd
+Z76 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd
 l0
 L31
 V4XjPa9eRYZ18I^i[a_izL1
 R11
 31
-Z77 !s108 1573144489.186000
-Z78 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd|
-Z79 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd|
+Z77 !s108 1348674367.085000
+Z78 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd|
+Z79 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_ireg.vhd|
 R12
 R13
 R14
@@ -1031,16 +1031,16 @@ R6
 R7
 R8
 R10
-Z80 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd
-Z81 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd
+Z80 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd
+Z81 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd
 l0
 L31
 VJQV8CROnz5>>76MblTgBb3
 R11
 31
-Z82 !s108 1573144489.687000
-Z83 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd|
-Z84 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd|
+Z82 !s108 1348674367.741000
+Z83 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd|
+Z84 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ddr_oreg.vhd|
 R12
 R13
 R14
@@ -1122,7 +1122,7 @@ R14
 !s100 HkVF]TZ>b?2n[dkg:XBkz1
 !i10b 1
 Edw_mul_61x61
-Z85 w1309258596
+Z85 w1309262196
 Z86 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
 Z87 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
 Z88 DPx5 dware 24 dw_foundation_comp_arith 0 22 ]DBO3]dgg[MdhJz7^a@Wh3
@@ -1130,16 +1130,16 @@ Z89 DPx5 dware 10 dwpackages 0 22 >WR`7h5N_cLWa>U[;H75@2
 R7
 R8
 R10
-Z90 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd
-Z91 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd
+Z90 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd
+Z91 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd
 l0
 L77
 V?Am=TTYCl_OH_KPmMndSC3
 R11
 31
-Z92 !s108 1573144454.002000
-Z93 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd|
-Z94 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd|
+Z92 !s108 1348674334.623000
+Z93 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd|
+Z94 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/dware/mul_dware.vhd|
 R12
 R13
 R14
@@ -1218,16 +1218,16 @@ R85
 R7
 R8
 R10
-Z95 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd
-Z96 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd
+Z95 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd
+Z96 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd
 l0
 L86
 VgjAnN5Z9nc<_HIe`8MYnb0
 R11
 31
-Z97 !s108 1573144452.586000
-Z98 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd|
-Z99 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd|
+Z97 !s108 1348674332.389000
+Z98 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd|
+Z99 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_phy_inferred.vhd|
 R12
 R13
 R14
@@ -1329,16 +1329,16 @@ R85
 R7
 R8
 R10
-Z100 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd
-Z101 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd
+Z100 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd
+Z101 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd
 l0
 L29
 V]4FlTzMEORKUY=I^c]WY]0
 R11
 31
-Z102 !s108 1573144451.243000
-Z103 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd|
-Z104 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd|
+Z102 !s108 1348674330.717000
+Z103 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd|
+Z104 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/ddr_inferred.vhd|
 R12
 R13
 R14
@@ -1369,16 +1369,16 @@ R4
 R7
 R8
 R10
-Z105 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd
-Z106 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd
+Z105 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd
+Z106 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd
 l0
 L32
 VGBlEhL7=BCAAGAA2YCo8U0
 R11
 31
-Z107 !s108 1573144451.841000
-Z108 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd|
-Z109 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd|
+Z107 !s108 1348674331.397000
+Z108 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd|
+Z109 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/mul_inferred.vhd|
 R12
 R13
 R14
@@ -1459,8 +1459,8 @@ R7
 R8
 R85
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd
 l0
 L31
 VfA@NZ:l4lLPzZlfC6BX<H0
@@ -1471,9 +1471,9 @@ R13
 R14
 !s100 dGefN0<WWFXWPD>LcI21h3
 !i10b 1
-!s108 1573144447.667000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd|
+!s108 1348674327.428000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/gencomp.vhd|
 Egeneric_ddr2_phy
 R85
 R1
@@ -1580,16 +1580,16 @@ R2
 R7
 R8
 R10
-Z111 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd
-Z112 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd
+Z111 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd
+Z112 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd
 l0
 L219
 V7T00EeeY=kGFm9fdFOj5;0
 R11
 31
-Z113 !s108 1573144449.049000
-Z114 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd|
-Z115 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd|
+Z113 !s108 1348674328.732000
+Z114 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd|
+Z115 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/inferred/memory_inferred.vhd|
 R12
 R13
 R14
@@ -1841,16 +1841,16 @@ R16
 R7
 R8
 R10
-Z116 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd
-Z117 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd
+Z116 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd
+Z117 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd
 l0
 L31
 VQC3HhGinJSa94H3W8C9oU1
 R11
 31
-Z118 !s108 1573144512.604000
-Z119 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd|
-Z120 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd|
+Z118 !s108 1348674386.569000
+Z119 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd|
+Z120 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grfpw_net.vhd|
 R12
 R13
 R14
@@ -1890,16 +1890,16 @@ R16
 R7
 R8
 R10
-Z121 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd
-Z122 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd
+Z121 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd
+Z122 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd
 l0
 L31
 V=AXUBkYXj1b]o`@=V1B]b3
 R11
 31
-Z123 !s108 1573144511.560000
-Z124 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd|
-Z125 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd|
+Z123 !s108 1348674385.968000
+Z124 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd|
+Z125 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grlfpw_net.vhd|
 R12
 R13
 R14
@@ -1940,16 +1940,16 @@ R6
 R7
 R8
 R10
-Z126 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd
-Z127 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd
+Z126 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd
+Z127 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd
 l0
 L31
 V]mcQ_UL=4FRg_?2[Ql]kd2
 R11
 31
-Z128 !s108 1573144518.563000
-Z129 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd|
-Z130 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd|
+Z128 !s108 1348674392.030000
+Z129 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd|
+Z130 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grgates.vhd|
 R12
 R13
 R14
@@ -1990,16 +1990,16 @@ R6
 R7
 R8
 R10
-Z131 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd
-Z132 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd
+Z131 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd
+Z132 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd
 l0
 L31
 V20FFCiCe5STOWzeo4kzDP2
 R11
 31
-Z133 !s108 1573144510.423000
-Z134 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd|
-Z135 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd|
+Z133 !s108 1348674385.436000
+Z134 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd|
+Z135 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc2_net.vhd|
 R12
 R13
 R14
@@ -2033,16 +2033,16 @@ R9
 R7
 R8
 R10
-Z136 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd
-Z137 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd
+Z136 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd
+Z137 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd
 l0
 L30
 VNF6zgaM<S_<E@`RGkZE930
 R11
 31
-Z138 !s108 1573144471.382000
-Z139 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd|
-Z140 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd|
+Z138 !s108 1348674351.311000
+Z139 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd|
+Z140 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc2_unisim.vhd|
 R12
 R13
 R14
@@ -2076,16 +2076,16 @@ R6
 R7
 R8
 R10
-Z141 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd
-Z142 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd
+Z141 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd
+Z142 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd
 l0
 L31
 V2<>9EHe4]gLTPe=2j0dRC3
 R11
 31
-Z143 !s108 1573144509.739000
-Z144 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd|
-Z145 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd|
+Z143 !s108 1348674384.780000
+Z144 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd|
+Z145 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grspwc_net.vhd|
 R12
 R13
 R14
@@ -2119,16 +2119,16 @@ R9
 R7
 R8
 R10
-Z146 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd
-Z147 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd
+Z146 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd
+Z147 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd
 l0
 L30
 V?9[C<kT7R7c6HGGX6n4V;2
 R11
 31
-Z148 !s108 1573144470.280000
-Z149 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd|
-Z150 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd|
+Z148 !s108 1348674350.733000
+Z149 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd|
+Z150 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grspwc_unisim.vhd|
 R12
 R13
 R14
@@ -2162,16 +2162,16 @@ R6
 R7
 R8
 R10
-Z151 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd
-Z152 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd
+Z151 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd
+Z152 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd
 l0
 L30
 VQ=P9TeAmOd;J?ccZaHafo0
 R11
 31
-Z153 !s108 1573144516.165000
-Z154 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd|
-Z155 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd|
+Z153 !s108 1348674388.975000
+Z154 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd|
+Z155 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/grusbhc_net.vhd|
 R12
 R13
 R14
@@ -2211,16 +2211,16 @@ R6
 R7
 R8
 R10
-Z156 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd
-Z157 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd
+Z156 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd
+Z157 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd
 l0
 L40
 V?[hQcNU@BNOl7jQMg]PoW0
 R11
 31
-Z158 !s108 1573144471.927000
-Z159 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd|
-Z160 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd|
+Z158 !s108 1348674351.834000
+Z159 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd|
+Z160 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/grusbhc_unisim.vhd|
 R12
 R13
 R14
@@ -2261,16 +2261,16 @@ R6
 R7
 R8
 R10
-Z161 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd
-Z162 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd
+Z161 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd
+Z162 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd
 l0
 L32
 V>QzzSRjNb[]ENn<3^g71l1
 R11
 31
-Z163 !s108 1573144496.995000
-Z164 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd|
-Z165 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd|
+Z163 !s108 1348674376.155000
+Z164 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd|
+Z165 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad.vhd|
 R12
 R13
 R14
@@ -2313,16 +2313,16 @@ R6
 R7
 R8
 R10
-Z166 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd
-Z167 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd
+Z166 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd
+Z167 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd
 l0
 L35
 VQ:Vi5NQGm4bhM:DzzoWW32
 R11
 31
-Z168 !s108 1573144519.215000
-Z169 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd|
-Z170 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd|
+Z168 !s108 1348674392.554000
+Z169 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd|
+Z170 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ddr.vhd|
 R12
 R13
 R14
@@ -2414,16 +2414,16 @@ R6
 R7
 R8
 R10
-Z171 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd
-Z172 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd
+Z171 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd
+Z172 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd
 l0
 L32
 VZ?=hFb1LCPDz7GoGRR`L43
 R11
 31
-Z173 !s108 1573144497.696000
-Z174 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd|
-Z175 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd|
+Z173 !s108 1348674376.874000
+Z174 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd|
+Z175 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/inpad_ds.vhd|
 R12
 R13
 R14
@@ -2563,16 +2563,16 @@ R6
 R7
 R8
 R10
-Z176 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd
-Z177 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd
+Z176 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd
+Z177 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd
 l0
 L32
 VYW]<3[Ub85n;3AfTF@ma70
 R11
 31
-Z178 !s108 1573144499.196000
-Z179 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd|
-Z180 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd|
+Z178 !s108 1348674377.569000
+Z179 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd|
+Z180 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iodpad.vhd|
 R12
 R13
 R14
@@ -2663,16 +2663,16 @@ R6
 R7
 R8
 R10
-Z181 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd
-Z182 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd
+Z181 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd
+Z182 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd
 l0
 L32
 VRX2X][PWNAJ>eK;PJZ`KC3
 R11
 31
-Z183 !s108 1573144500.715000
-Z184 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd|
-Z185 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd|
+Z183 !s108 1348674378.264000
+Z184 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd|
+Z185 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad.vhd|
 R12
 R13
 R14
@@ -2715,16 +2715,16 @@ R6
 R7
 R8
 R10
-Z186 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd
-Z187 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd
+Z186 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd
+Z187 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd
 l0
 L35
 Vm?<jUW^X5Nd94<fM<AKcI0
 R11
 31
-Z188 !s108 1573144520.721000
-Z189 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd|
-Z190 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd|
+Z188 !s108 1348674394.022000
+Z189 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd|
+Z190 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ddr.vhd|
 R12
 R13
 R14
@@ -2865,16 +2865,16 @@ R6
 R7
 R8
 R10
-Z191 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd
-Z192 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd
+Z191 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd
+Z192 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd
 l0
 L32
 VTlba^z24Jc9hRW1J3JWA32
 R11
 31
-Z193 !s108 1573144503.317000
-Z194 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd|
-Z195 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd|
+Z193 !s108 1348674379.217000
+Z194 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd|
+Z195 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/iopad_ds.vhd|
 R12
 R13
 R14
@@ -3112,16 +3112,16 @@ R5
 R7
 R8
 R10
-Z197 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd
-Z198 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd
+Z197 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd
+Z198 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd
 l0
 L28
 VzUB1<7V`M`5B]8MkX60VW3
 R11
 31
-Z199 !s108 1573144513.669000
-Z200 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd|
-Z201 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd|
+Z199 !s108 1348674387.186000
+Z200 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd|
+Z201 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/leon4_net.vhd|
 R12
 R13
 R14
@@ -3163,16 +3163,16 @@ R6
 R7
 R8
 R10
-Z202 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd
-Z203 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd
+Z202 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd
+Z203 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd
 l0
 L32
 V@N9Wgoz`U[1`SelLMi[`W0
 R11
 31
-Z204 !s108 1573144504.833000
-Z205 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd|
-Z206 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd|
+Z204 !s108 1348674380.311000
+Z205 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd|
+Z206 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/lvds_combo.vhd|
 R12
 R13
 R14
@@ -3213,16 +3213,16 @@ R6
 R7
 R8
 R10
-Z207 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd
-Z208 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd
+Z207 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd
+Z208 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd
 l0
 L31
 VSWKF]I:kg<io=`A1HgiDL0
 R11
 31
-Z209 !s108 1573144514.619000
-Z210 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd|
-Z211 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd|
+Z209 !s108 1348674387.741000
+Z210 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd|
+Z211 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/mul_61x61.vhd|
 R12
 R13
 R14
@@ -3307,16 +3307,16 @@ R6
 R7
 R8
 R10
-Z212 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd
-Z213 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd
+Z212 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd
+Z213 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd
 l0
 L30
 VEaScl^QO<:MW@h0A1D^Tf3
 R11
 31
-Z214 !s108 1573144495.344000
-Z215 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd|
-Z216 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd|
+Z214 !s108 1348674374.202000
+Z215 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd|
+Z216 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/nandtree.vhd|
 R12
 R13
 R14
@@ -3356,8 +3356,8 @@ R7
 R8
 R85
 R10
-8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd
-FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd
+8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd
+FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd
 l0
 L32
 VOWgRMf4Taz>X_3j0e_Ge90
@@ -3368,9 +3368,9 @@ R13
 R14
 !s100 Il4K5:E87QhmPbMcCT^fh3
 !i10b 1
-!s108 1573144448.390000
-!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd|
-!s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd|
+!s108 1348674328.139000
+!s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd|
+!s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/gencomp/netcomp.vhd|
 Eoddrc3e
 R9
 R42
@@ -3385,16 +3385,16 @@ R6
 R7
 R8
 R10
-Z219 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd
-Z220 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd
+Z219 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd
+Z220 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd
 l0
 L347
 Vi7kmG:UVGU8eQJ42i6WRA2
 R11
 31
-Z221 !s108 1573144463.834000
-Z222 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd|
-Z223 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd|
+Z221 !s108 1348674346.748000
+Z222 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd|
+Z223 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_unisim.vhd|
 R12
 R13
 R14
@@ -3487,16 +3487,16 @@ R6
 R7
 R8
 R10
-Z225 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd
-Z226 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd
+Z225 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd
+Z226 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd
 l0
 L32
 V8[SKL]]CKCdP4Z^I:5L[`0
 R11
 31
-Z227 !s108 1573144505.776000
-Z228 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd|
-Z229 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd|
+Z227 !s108 1348674380.889000
+Z228 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd|
+Z229 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/odpad.vhd|
 R12
 R13
 R14
@@ -3587,16 +3587,16 @@ R6
 R7
 R8
 R10
-Z230 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd
-Z231 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd
+Z230 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd
+Z231 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd
 l0
 L32
 Vf2ZO3=4iRbkQS]A>U4FT63
 R11
 31
-Z232 !s108 1573144506.999000
-Z233 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd|
-Z234 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd|
+Z232 !s108 1348674381.632000
+Z233 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd|
+Z234 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad.vhd|
 R12
 R13
 R14
@@ -3639,16 +3639,16 @@ R6
 R7
 R8
 R10
-Z235 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd
-Z236 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd
+Z235 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd
+Z236 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd
 l0
 L36
 VW>Jj^aS]DBWfP]H16GhW81
 R11
 31
-Z237 !s108 1573144519.904000
-Z238 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd|
-Z239 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd|
+Z237 !s108 1348674393.296000
+Z238 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd|
+Z239 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ddr.vhd|
 R12
 R13
 R14
@@ -3740,16 +3740,16 @@ R6
 R7
 R8
 R10
-Z240 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd
-Z241 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd
+Z240 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd
+Z241 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd
 l0
 L32
 V:4dA]m@J`>R8oZIG4Ff4L0
 R11
 31
-Z242 !s108 1573144507.798000
-Z243 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd|
-Z244 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd|
+Z242 !s108 1348674382.460000
+Z243 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd|
+Z244 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/outpad_ds.vhd|
 R12
 R13
 R14
@@ -3889,16 +3889,16 @@ R6
 R7
 R8
 R10
-Z246 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd
-Z247 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd
+Z246 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd
+Z247 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd
 l0
 L32
 VTF8Oo:o2@BP_Nf<=G]<k]2
 R11
 31
-Z248 !s108 1573144493.992000
-Z249 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd|
-Z250 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd|
+Z248 !s108 1348674372.631000
+Z249 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd|
+Z250 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd|
 R12
 R13
 R14
@@ -3939,16 +3939,16 @@ R6
 R7
 R8
 R10
-Z251 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd
-Z252 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd
+Z251 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd
+Z252 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd
 l0
 L30
 VVGcIifWo??LlAb=VcXE_a0
 R11
 31
-Z253 !s108 1573144516.951000
-Z254 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd|
-Z255 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd|
+Z253 !s108 1348674390.093000
+Z254 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd|
+Z255 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ringosc.vhd|
 R12
 R13
 R14
@@ -3983,8 +3983,8 @@ Z256 DPx7 techmap 6 alltap 0 22 <A1CDhZI`3>P9]XQJ_5101
 R7
 R8
 R10
-Z257 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd
-Z258 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd
+Z257 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd
+Z258 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd
 l0
 L31
 Vd4g2?;N;fj3fiWT=``AK;0
@@ -3992,9 +3992,9 @@ Vd4g2?;N;fj3fiWT=``AK;0
 R11
 31
 !i10b 1
-Z259 !s108 1573144523.881000
-Z260 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd|
-Z261 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd|
+Z259 !s108 1348674397.765000
+Z260 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd|
+Z261 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/scanreg.vhd|
 R12
 R13
 R14
@@ -4106,16 +4106,16 @@ R6
 R7
 R8
 R10
-Z271 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd
-Z272 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd
+Z271 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd
+Z272 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd
 l0
 L32
 VCY_UI23L1k<91R84Um?J21
 R11
 31
-Z273 !s108 1573144509.260000
-Z274 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd|
-Z275 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd|
+Z273 !s108 1348674384.178000
+Z274 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd|
+Z275 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/skew_outpad.vhd|
 R12
 R13
 R14
@@ -4151,16 +4151,16 @@ DEx6 unisim 14 bscan_spartan3 0 22 =c:_ZCI;Dd5Qn6[ZWd;J00
 R7
 R8
 R10
-Z276 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd
-Z277 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd
+Z276 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd
+Z277 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd
 l0
 L151
 Vi1:d=hhH91nNh?lojR44>3
 R11
 31
-Z278 !s108 1573144462.294000
-Z279 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd|
-Z280 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd|
+Z278 !s108 1348674344.709000
+Z279 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd|
+Z280 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/tap_unisim.vhd|
 R12
 R13
 R14
@@ -4201,16 +4201,16 @@ R2
 R7
 R8
 R10
-Z283 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd
-Z284 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd
+Z283 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd
+Z284 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd
 l0
 L2041
 V?ddOScHAXNU8MQPVKDW5j2
 R11
 31
-Z285 !s108 1573144466.572000
-Z286 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd|
-Z287 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd|
+Z285 !s108 1348674348.069000
+Z286 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd|
+Z287 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ddr_phy_unisim.vhd|
 R12
 R13
 R14
@@ -4402,16 +4402,16 @@ R6
 R7
 R8
 R10
-Z288 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd
-Z289 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd
+Z288 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd
+Z289 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd
 l0
 L32
 V]S`09iQ_h>HnRm5`mdeXb2
 R11
 31
-Z290 !s108 1573144523.396000
-Z291 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd|
-Z292 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd|
+Z290 !s108 1348674397.202000
+Z291 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd|
+Z292 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/spictrl_net.vhd|
 R12
 R13
 R14
@@ -4446,16 +4446,16 @@ R4
 R7
 R8
 R10
-Z293 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd
-Z294 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd
+Z293 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd
+Z294 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd
 l0
 L17
 VDT1DSIN17Jk;SIMiWFlLf2
 R11
 31
-Z295 !s108 1573144478.900000
-Z296 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd|
-Z297 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd|
+Z295 !s108 1348674357.741000
+Z296 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd|
+Z297 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim.vhd|
 R12
 R13
 R14
@@ -4486,16 +4486,16 @@ R4
 R7
 R8
 R10
-Z299 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd
-Z300 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd
+Z299 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd
+Z300 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd
 l0
 L77
 VJ_<eo=KCJn[Qin5VB3mOL2
 R11
 31
-Z301 !s108 1573144479.793000
-Z302 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
-Z303 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
+Z301 !s108 1348674358.514000
+Z302 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
+Z303 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
 R12
 R13
 R14
@@ -4527,16 +4527,16 @@ R4
 R7
 R8
 R10
-Z304 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd
-Z305 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd
+Z304 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd
+Z305 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd
 l0
 L76
 VhYD`i3cSo;<g4_];7B::P2
 R11
 31
-Z306 !s108 1573144481.927000
-Z307 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
-Z308 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
+Z306 !s108 1348674359.944000
+Z307 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
+Z308 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
 R12
 R13
 R14
@@ -4572,16 +4572,16 @@ R6
 R7
 R8
 R10
-Z309 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd
-Z310 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd
+Z309 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd
+Z310 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd
 l0
 L30
 Vo_Ek5HKaO:R3BoW:1NGHY1
 R11
 31
-Z311 !s108 1573144517.546000
-Z312 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd|
-Z313 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd|
+Z311 !s108 1348674390.983000
+Z312 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd|
+Z313 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/ssrctrl_net.vhd|
 R12
 R13
 R14
@@ -4616,16 +4616,16 @@ R298
 R7
 R8
 R10
-Z314 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd
-Z315 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd
+Z314 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd
+Z315 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd
 l0
 L31
 VdTi=8lZDD9ES4Z>3g06zZ1
 R11
 31
-Z316 !s108 1573144472.614000
-Z317 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd|
-Z318 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd|
+Z316 !s108 1348674352.537000
+Z317 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd|
+Z318 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/ssrctrl_unisim.vhd|
 R12
 R13
 R14
@@ -4699,16 +4699,16 @@ R6
 R7
 R8
 R10
-Z319 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd
-Z320 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd
+Z319 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd
+Z320 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd
 l0
 L33
 VnJc1ca?:KHm[maCQg2Jz[1
 R11
 31
-Z321 !s108 1573144493.537000
-Z322 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd|
-Z323 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd|
+Z321 !s108 1348674372.116000
+Z322 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd|
+Z323 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncfifo.vhd|
 R12
 R13
 R14
@@ -4749,16 +4749,16 @@ R3
 R7
 R8
 R10
-Z325 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd
-Z326 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd
+Z325 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd
+Z326 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd
 l0
 L34
 V_6nc<^<TY[W2IU6F51W[63
 R11
 31
-Z327 !s108 1573144491.046000
-Z328 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd|
-Z329 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd|
+Z327 !s108 1348674369.483000
+Z328 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd|
+Z329 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram.vhd|
 R12
 R13
 R14
@@ -4799,16 +4799,16 @@ R6
 R7
 R8
 R10
-Z330 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd
-Z331 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd
+Z330 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd
+Z331 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd
 l0
 L35
 VJ0:3?Um;m>FmgL]25Sn^G1
 R11
 31
-Z332 !s108 1573144522.002000
-Z333 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd|
-Z334 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd|
+Z332 !s108 1348674395.452000
+Z333 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd|
+Z334 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128.vhd|
 R12
 R13
 R14
@@ -4848,16 +4848,16 @@ R6
 R7
 R8
 R10
-Z335 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd
-Z336 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd
+Z335 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd
+Z336 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd
 l0
 L35
 VPiCNePZEXY0>15DKjKU@g2
 R11
 31
-Z337 !s108 1573144521.522000
-Z338 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd|
-Z339 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd|
+Z337 !s108 1348674394.929000
+Z338 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd|
+Z339 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram128bw.vhd|
 R12
 R13
 R14
@@ -4897,16 +4897,16 @@ R6
 R7
 R8
 R10
-Z340 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd
-Z341 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd
+Z340 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd
+Z341 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd
 l0
 L33
 V5EkmPU_dVz]UJ[e=D@2Ce0
 R11
 31
-Z342 !s108 1573144522.439000
-Z343 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd|
-Z344 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd|
+Z342 !s108 1348674396.007000
+Z343 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd|
+Z344 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram156bw.vhd|
 R12
 R13
 R14
@@ -4946,16 +4946,16 @@ R6
 R7
 R8
 R10
-Z345 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd
-Z346 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd
+Z345 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd
+Z346 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd
 l0
 L35
 Vd`XWhn^2_nE=1;kT@9_cP0
 R11
 31
-Z347 !s108 1573144491.638000
-Z348 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd|
-Z349 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd|
+Z347 !s108 1348674370.303000
+Z348 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd|
+Z349 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram64.vhd|
 R12
 R13
 R14
@@ -4996,16 +4996,16 @@ R6
 R7
 R8
 R10
-Z350 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd
-Z351 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd
+Z350 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd
+Z351 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd
 l0
 L35
 VU58jK7IeBLlIYD_o4IdKB2
 R11
 31
-Z352 !s108 1573144492.294000
-Z353 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd|
-Z354 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd|
+Z352 !s108 1348674370.913000
+Z353 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd|
+Z354 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_2p.vhd|
 R12
 R13
 R14
@@ -5047,16 +5047,16 @@ R6
 R7
 R8
 R10
-Z355 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd
-Z356 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd
+Z355 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd
+Z356 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd
 l0
 L35
 VL<B@FTkOY97m0V0FCBWWG3
 R11
 31
-Z357 !s108 1573144493.035000
-Z358 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd|
-Z359 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd|
+Z357 !s108 1348674371.538000
+Z358 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd|
+Z359 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/syncram_dp.vhd|
 R12
 R13
 R14
@@ -5094,16 +5094,16 @@ DEx6 unisim 6 sysmon 0 22 i2S6minI5kX5`klIdk2TR3
 R7
 R8
 R10
-Z360 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd
-Z361 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd
+Z360 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd
+Z361 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd
 l0
 L38
 VKRRC01_39GG6HUbVka>L40
 R11
 31
-Z362 !s108 1573144474.213000
-Z363 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd|
-Z364 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd|
+Z362 !s108 1348674353.998000
+Z363 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd|
+Z364 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/sysmon_unisim.vhd|
 R12
 R13
 R14
@@ -5139,16 +5139,16 @@ R6
 R7
 R8
 R10
-Z365 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd
-Z366 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd
+Z365 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd
+Z366 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd
 l0
 L31
 VVdd4Vk;?:P1jhbTUXk2bS1
 R11
 31
-Z367 !s108 1573144518.053000
-Z368 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd|
-Z369 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd|
+Z367 !s108 1348674391.515000
+Z368 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd|
+Z369 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/system_monitor.vhd|
 R12
 R13
 R14
@@ -5189,16 +5189,16 @@ R6
 R7
 R8
 R10
-Z370 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd
-Z371 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd
+Z370 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd
+Z371 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd
 l0
 L35
 V]hY<nY1OI>PVIeaJOTF][0
 R11
 31
-Z372 !s108 1573144494.432000
-Z373 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd|
-Z374 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd|
+Z372 !s108 1348674373.178000
+Z373 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd|
+Z374 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/tap.vhd|
 R12
 R13
 R14
@@ -5239,16 +5239,16 @@ R6
 R7
 R8
 R10
-Z375 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd
-Z376 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd
+Z375 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd
+Z376 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd
 l0
 L30
 V^3W=9F8k1bjF^iSib1c5E2
 R11
 31
-Z377 !s108 1573144494.905000
-Z378 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd|
-Z379 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd|
+Z377 !s108 1348674373.702000
+Z378 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd|
+Z379 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techbuf.vhd|
 R12
 R13
 R14
@@ -5290,16 +5290,16 @@ R2
 R7
 R8
 R10
-Z382 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd
-Z383 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd
+Z382 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd
+Z383 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd
 l0
 L35
 VA]BZOP07C`H0jPLZ@P<m=1
 R11
 31
-Z384 !s108 1573144522.922000
-Z385 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd|
-Z386 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd|
+Z384 !s108 1348674396.561000
+Z385 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd|
+Z386 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/techmult.vhd|
 R12
 R13
 R14
@@ -5342,16 +5342,16 @@ R6
 R7
 R8
 R10
-Z387 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd
-Z388 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd
+Z387 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd
+Z388 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd
 l0
 L32
 Vb3i>`3CnFGMA2MZ^JUn6m0
 R11
 31
-Z389 !s108 1573144508.454000
-Z390 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd|
-Z391 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd|
+Z389 !s108 1348674383.202000
+Z390 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd|
+Z391 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/maps/toutpad.vhd|
 R12
 R13
 R14
@@ -5494,16 +5494,16 @@ R6
 R7
 R8
 R10
-Z393 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd
-Z394 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd
+Z393 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd
+Z394 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd
 l0
 L479
 VgT[RA3zMZjPoAhz6lbR7D1
 R11
 31
-Z395 !s108 1573144457.462000
-Z396 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd|
-Z397 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd|
+Z395 !s108 1348674338.779000
+Z396 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd|
+Z397 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/pads_unisim.vhd|
 R12
 R13
 R14
@@ -6054,16 +6054,16 @@ Z402 DEx6 unisim 14 ramb16_s36_s36 0 22 aR7d_P6GHz?k`5gCRQ`UD2
 R7
 R8
 R10
-Z403 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd
-Z404 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd
+Z403 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd
+Z404 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd
 l0
 L394
 VoE4H6Q;eC^m68`=g4kTjU3
 R11
 31
-Z405 !s108 1573144454.753000
-Z406 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd|
-Z407 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd|
+Z405 !s108 1348674335.483000
+Z406 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd|
+Z407 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/memory_unisim.vhd|
 R12
 R13
 R14
@@ -6592,16 +6592,16 @@ R298
 R7
 R8
 R10
-Z408 8E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd
-Z409 FE:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd
+Z408 8O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd
+Z409 FO:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd
 l0
 L7
 V3XFDoVWcbbWLoRkPGNhj:2
 R11
 31
-Z410 !s108 1573144474.671000
-Z411 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd|
-Z412 !s107 E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd|
+Z410 !s108 1348674354.522000
+Z411 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd|
+Z412 !s107 O:/Documents/eejlny/teaching/ERTS/arm_lab/bridge_lab/grlib-gpl-1.1.0-b4108/lib/techmap/unisim/mul_unisim.vhd|
 R12
 R13
 R14
