@@ -1,0 +1,8 @@
+[Inputs]
+clkm
+rstn
+ahbmi
+[Outputs]
+ahbmo
+cm0_led
+[BiDir]

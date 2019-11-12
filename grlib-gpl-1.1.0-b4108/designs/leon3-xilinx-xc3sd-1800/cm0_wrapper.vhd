@@ -6,41 +6,20 @@ library grlib;
 use grlib.amba.all;
 use grlib.stdlib.all;
 use grlib.devices.all;
-library techmap;
-use techmap.gencomp.all;
-use techmap.allclkgen.all;
+--library techmap;
+--use techmap.gencomp.all;
+--use techmap.allclkgen.all;
 library gaisler;
-use gaisler.memctrl.all;
-use gaisler.leon3.all;
-use gaisler.uart.all;
+--use gaisler.memctrl.all;
+--use gaisler.leon3.all;
+--use gaisler.uart.all;
 use gaisler.misc.all;
-use gaisler.net.all;
-use gaisler.jtag.all;
-library esa;
-use esa.memoryctrl.all;
+--use gaisler.net.all;
+--use gaisler.jtag.all;
+--library esa;
+--use esa.memoryctrl.all;
 
-use work.config.all;
-
--- !!!: Declaring files in cm0_wrapper
---use work.AHB_bridge.all;
---use work.CM0_DSSystem.all;
-
--- ENTITY gate IS 
---   PORT ( 
---     a:IN BIT; -- input
---  		b:IN BIT;
---	 	q:OUT BIT
---   );
--- END gate;
-
--- ARCHITECTURE dataflow OF gate IS
---   SIGNAL q_prim : BIT;
--- BEGIN
---     q_prim <= a AND b AFTER 5 ns;
---     q <= NOT q_prim AFTER 3 ns;
--- END dataflow;
-
-
+--use work.config.all;
 
 entity cm0_wrapper is
   port(
@@ -115,9 +94,6 @@ component AHB_bridge
     ahbi: IN ahb_mst_in_type 
   );
 end component;
--- Signals inside wrapper that do not i/o of wrapper
---signal dmai : ahb_dma_in_type;
---signal dmao : ahb_dma_out_type;
 
 begin
   pull_zero <= '0';
@@ -155,7 +131,6 @@ ahb_map: AHB_bridge
   port map (
     ahb_clk => clkm,
     ahb_rst => rstn,
-    --ahbo => ahbmo(0),
     ahbo => ahbmo,
     ahbi => ahbmi,
     
@@ -174,16 +149,11 @@ begin
   --if rising_edge(clkm) and s_HRDATA = x"F0F0F0F0" then
   if rising_edge(clkm) then
     if s_HRDATA = x"F0F0F0F0" then
-    --led3_clocked := '1';
       cm0_led <= '1';
     else
-      --led3_clocked := '0';
       cm0_led <= '0';
     end if;
   end if;
-  --cm0_led <= led3_clocked;
 end process;
-
---cm0_led <= s_led3;
 
 end structural;

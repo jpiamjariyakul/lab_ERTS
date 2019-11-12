@@ -4,8 +4,6 @@
 
 } {} {}} ../../lib/gaisler/jtag/jtagcom.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtagcom.vhd
 
-} {} {}} state_machine.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt E:/lab_ERTS/grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd
-
 } {} {}} ../../lib/gaisler/greth/greth.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/greth/greth.vhd
 
 } {} {}} ../../lib/grlib/stdlib/stdlib.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/stdlib/stdlib.vhd
@@ -21,11 +19,11 @@
 
 } {} {}} ../../lib/gaisler/ddr/ddrsp64a.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/ddr/ddrsp64a.vhd
 
-} {} {}} ../../lib/grlib/sparc/sparc.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/sparc/sparc.vhd
-
 } {} {}} ../../lib/gaisler/arith/mul32.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/arith/mul32.vhd
 
 } {} {}} ../../lib/gaisler/misc/charrom_package.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/misc/charrom_package.vhd
+
+} {} {}} ../../lib/grlib/sparc/sparc.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/sparc/sparc.vhd
 
 } {} {}} ../../lib/techmap/maps/regfile_3p.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/techmap/maps/regfile_3p.vhd
 
@@ -185,7 +183,7 @@
 
 } {} {}} ../../lib/gaisler/memctrl/srctrl.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/memctrl/srctrl.vhd
 
-} {} {}} cm0_wrapper.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt E:/lab_ERTS/grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd
+} {} {}} cm0_wrapper.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt {E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd}
 
 } {} {}} ../../lib/grlib/amba/apbctrl.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/grlib/amba/apbctrl.vhd
 
@@ -484,6 +482,8 @@ Permission denied. (errno = EACCES)
 } {} {}} ../../lib/gaisler/leon3/dsu3.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/leon3/dsu3.vhd
 
 } {} {}} ../../lib/gaisler/leon3/tbufmem.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/leon3/tbufmem.vhd
+
+} {} {}} data_swapper.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt {E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\data_swapper.vhd}
 
 } {} {}} ../../lib/gaisler/jtag/jtag.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s E:/lab_ERTS/grlib-gpl-1.1.0-b4108/lib/gaisler/jtag/jtag.vhd
 

@@ -1,0 +1,7 @@
+PH config NULL E:/lab_ERTS/lab_extension/lab_extension/config.vhd sub00/vhpl01 1573575712
+PH version NULL E:/lab_ERTS/lab_extension/lab_extension/version.vhd sub00/vhpl00 1573575711
+PB amba amba E:/lab_ERTS/lab_extension/lab_extension/amba.vhd sub00/vhpl05 1573575716
+PH devices NULL E:/lab_ERTS/lab_extension/lab_extension/devices.vhd sub00/vhpl06 1573575717
+PH stdlib NULL E:/lab_ERTS/lab_extension/lab_extension/stdlib.vhd sub00/vhpl02 1573575713
+PB stdlib stdlib E:/lab_ERTS/lab_extension/lab_extension/stdlib.vhd sub00/vhpl03 1573575714
+PH amba NULL E:/lab_ERTS/lab_extension/lab_extension/amba.vhd sub00/vhpl04 1573575715

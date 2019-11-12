@@ -35,6 +35,9 @@ architecture structural of state_machine is
   
 TYPE state_type is (idle, instr_fetch);  -- List your states here 	
 SIGNAL curState, nextState: STATE_TYPE;
+signal pull_zero: std_logic := '0'; -- Signal to pull some ports to zero
+signal pull_zero_vector: std_logic_vector(15 downto 0) := x"0000";
+
 begin
   
 combi_nextState: process(curState, HTRANS, dmao)
@@ -62,8 +65,8 @@ BEGIN
     WHEN others => -- Fallback vals in case reaches other state
       nextState <= idle;
   end case;
-  
-  --dmai.start <= v_dmaiStart;
+	
+	--dmai.start <= v_dmaiStart;
   --HREADY <= v_HREADY;
   
 END PROCESS; -- combi_nextState
@@ -101,7 +104,7 @@ combi_ResetState: PROCESS (clkm, rstn)
 BEGIN
   IF rstn = '0' THEN
     curState <= idle;
-  ELSIF clkm'event AND clkm='1' THEN
+  ELSIF rising_edge(clkm) THEN
     curState <= nextState;
   END IF;
 END PROCESS; -- seq

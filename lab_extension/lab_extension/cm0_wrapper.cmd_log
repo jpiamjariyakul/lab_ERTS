@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cm0_wrapper.ucf -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cm0_wrapper_map.ncd cm0_wrapper.ngd cm0_wrapper.pcf 
+vhdtdtfi -lib grlib version.vhd -lib grlib stdlib.vhd -lib grlib config.vhd -lib grlib amba.vhd -lib techmap gencomp.vhd -lib grlib devices.vhd -lib gaisler misc.vhd -lib work state_machine.vhd -lib work data_swapper.vhd -lib work cortexm0ds_logic.v -lib work ahbmst.vhd -lib work CORTEXM0DS.v -lib work AHB_bridge.vhd -lib work cm0_wrapper.vhd -prj lab_extension -o cm0_wrapper.spl -module cm0_wrapper -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 cm0_wrapper.spl E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.sym 
+par -w -intstyle ise -ol high -mt off cm0_wrapper_map.ncd cm0_wrapper.ncd cm0_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml cm0_wrapper.twx cm0_wrapper.ncd -o cm0_wrapper.twr cm0_wrapper.pcf -ucf cm0_wrapper.ucf 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cm0_wrapper.ucf -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v 
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cm0_wrapper_map.ncd cm0_wrapper.ngd cm0_wrapper.pcf 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cm0_wrapper.ucf -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cm0_wrapper_map.ncd cm0_wrapper.ngd cm0_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off cm0_wrapper_map.ncd cm0_wrapper.ncd cm0_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml cm0_wrapper.twx cm0_wrapper.ncd -o cm0_wrapper.twr cm0_wrapper.pcf -ucf cm0_wrapper.ucf 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v 
+vhdtdtfi -lib grlib version.vhd -lib grlib stdlib.vhd -lib grlib config.vhd -lib grlib amba.vhd -lib techmap gencomp.vhd -lib grlib devices.vhd -lib gaisler misc.vhd -lib work cortexm0ds_logic.v -lib work ahbmst.vhd -lib work ../../grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd -lib work ../../grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd -lib work CORTEXM0DS.v -lib work ../../grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/AHB_bridge.vhd -lib work ../../grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd -prj lab_extension -o cm0_wrapper.spl -module cm0_wrapper -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 cm0_wrapper.spl E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.sym 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cm0_wrapper.ucf -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/cm0_wrapper.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cm0_wrapper.ucf -p xc6slx100-fgg676-2 cm0_wrapper.ngc cm0_wrapper.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cm0_wrapper_map.ncd cm0_wrapper.ngd cm0_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off cm0_wrapper_map.ncd cm0_wrapper.ncd cm0_wrapper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml cm0_wrapper.twx cm0_wrapper.ncd -o cm0_wrapper.twr cm0_wrapper.pcf -ucf cm0_wrapper.ucf 

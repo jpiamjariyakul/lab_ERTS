@@ -1,0 +1,52 @@
+Release 14.1 - netgen P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim cm0_wrapper.ngc cm0_wrapper_synthesis.v  
+
+Reading design 'cm0_wrapper.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<0>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<1>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<2>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<3>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<4>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<5>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<6>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+WARNING:NetListWriters:677 - Netgen has detected a port, ahbmo_hconfig<7>[31],
+   at instance, cm0_wrapper, that is declared as an array. Ports declared as
+   arrays are not supported by NetGen and can not be properly reconstructed in
+   the netlist. The array will be reconstructed as 1-D array
+Writing Verilog netlist file
+'E:\lab_ERTS\lab_extension\lab_extension\netgen\synthesis\cm0_wrapper_synthesis.
+v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 8
+Number of info messages: 1
+Total memory usage is 4410884 kilobytes

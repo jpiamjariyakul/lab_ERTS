@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/CM0_DSSystem.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/CM0_DSSystem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg676-2 CM0_DSSystem.ngc CM0_DSSystem.ngd  
+vhdtdtfi -lib work cortexm0ds_logic.v -lib work cortexm0_memory.vhd -lib work CORTEXM0DS.v -lib work CM0_DSSystem.vhd -prj lab_extension -o CM0_DSSystem.spl -module CM0_DSSystem -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+xst -intstyle ise -ifn "E:/lab_ERTS/lab_extension/lab_extension/CM0_DSSystem.xst" -ofn "E:/lab_ERTS/lab_extension/lab_extension/CM0_DSSystem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg676-2 CM0_DSSystem.ngc CM0_DSSystem.ngd  

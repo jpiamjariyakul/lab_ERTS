@@ -1,0 +1,16 @@
+V3 67
+FL E:/lab_ERTS/lab_extension/lab_extension/gencomp.vhd 2011/06/28.11:56:36 P.15xf
+PH techmap/gencomp 1573575718 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/gencomp.vhd \
+      PB ieee/std_logic_1164 1335251622 LB grlib PB grlib/amba 1573575716 \
+      CD syncram CD syncram_2p CD syncram_dp CD regfile_3p CD syncram64 CD syncram128 \
+      CD syncramft CD syncram_2pft CD syncfifo CD syncram128bw CD syncram156bw \
+      CD syncram256bw CD inpad CD inpadv CD iopad CD iopadv CD iopadvv CD iodpad \
+      CD iodpadv CD outpad CD outpadv CD odpad CD odpadv CD toutpad CD toutpadv \
+      CD toutpadvv CD toutpad_ds CD toutpad_dsv CD toutpad_dsvv CD skew_outpad \
+      CD clkpad CD inpad_ds CD clkpad_ds CD inpad_dsv CD iopad_ds CD outpad_ds \
+      CD outpad_dsv CD lvds_combo CD inpad_ddr CD inpad_ddrv CD outpad_ddr \
+      CD outpad_ddrv CD iopad_ddr CD iopad_ddrv CD iopad_ddrvv CD techbuf CD clkgen \
+      CD clkand CD clkmux CD clkrand CD tap CD scanregi CD scanrego CD scanregio \
+      CD ddr_ireg CD ddr_oreg CD ddrphy CD ddr2phy CD mul_61x61 CD ringosc \
+      CD system_monitor CD nandtree CD grmux2 CD techmult

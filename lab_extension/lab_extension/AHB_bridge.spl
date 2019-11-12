@@ -1,0 +1,14 @@
+[Inputs]
+ahb_clk
+ahb_rst
+ahbi
+HWRITE
+=HADDR[31:0]=
+=HSIZE[2:0]=
+=HTRANS[1:0]=
+=HWDATA[31:0]=
+[Outputs]
+ahbo
+HREADY
+=HRDATA[31:0]=
+[BiDir]
