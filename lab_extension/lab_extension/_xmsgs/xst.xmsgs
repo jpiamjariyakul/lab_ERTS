@@ -5,12 +5,6 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd" Line 143: Assignment to <arg fmt="%s" index="1">reset_rom</arg> ignored, since the identifier is never used
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="89" delta="old" >"E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd" Line 61: &lt;<arg fmt="%s" index="1">detectorbus</arg>&gt; remains a black-box since it has no binding entity.
-</msg>
-
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\lab_ERTS\lab_extension\lab_extension\cortexm0ds_logic.v" Line 2069: Assignment to <arg fmt="%s" index="1">N4i2z4</arg> ignored, since the identifier is never used
 </msg>
 
@@ -77,22 +71,25 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\lab_ERTS\lab_extension\lab_extension\CORTEXM0DS.v" Line 152: Assignment to <arg fmt="%s" index="1">cm0_primask</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">HBURST</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">HBURST</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">HPROT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">HPROT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">HSIZE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">HMASTLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">HMASTLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">TXEV</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">TXEV</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKUP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CM0_DSSystem.vhd</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">SYSRESETREQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Processor</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">SYSRESETREQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\grlib-gpl-1.1.0-b4108\designs\leon3-xilinx-xc3sd-1800\cm0_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">SLEEPING</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cortexm0ds_map</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\lab_ERTS\lab_extension\lab_extension\CORTEXM0DS.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">vis_r0_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_logic</arg>&gt; is unconnected or connected to loadless signal.
@@ -164,55 +161,130 @@
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">W8r2z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Rnb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">W5c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Jje3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">E9c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Qsb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Q4h3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">I6h3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">C7f3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+</msg>
+
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Gzb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Zqb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Etq2z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">W5c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Q4h3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">O2c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Yvb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Qsb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Qnn2z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">C7f3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Yvb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">E9c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Rnb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Zqb3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Q0f3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Processor/u_logic/Ypi3z4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CM0_DSSystem</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">Etq2z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Led3</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DetectorBus</arg>&gt;. Possible simulation mismatch.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">O2c3z4</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cortexm0ds_logic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_haddr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_rdata</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_start</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_active</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_retry</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_mexc</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dmai_burst</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dmai_busy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dmai_irq</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_hgrant&lt;1:15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_hirq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_hcache</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_testen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_testrst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_scanen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbi_testoen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_haddr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clkm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_start</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_active</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_ready</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_retry</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dmao_mexc</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_active_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ahbmst_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ahb_map/ahbmst_inst/r_active_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cm0_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cortexm0ds_map/u_logic/Aii3z4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cm0_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cortexm0ds_map/u_logic/Ypi3z4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cm0_wrapper</arg>&gt;.
 </msg>
 
 </messages>

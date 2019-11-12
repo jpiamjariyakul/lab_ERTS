@@ -19,7 +19,7 @@ use gaisler.misc.all;
 --library esa;
 --use esa.memoryctrl.all;
 
-use work.config.all;
+--use work.config.all;
 
 -- !!!: Declaring files in cm0_wrapper
 --use work.AHB_bridge.all;

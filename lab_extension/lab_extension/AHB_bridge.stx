@@ -1,0 +1,83 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/lab_ERTS/lab_extension/lab_extension/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to E:/lab_ERTS/lab_extension/lab_extension/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: AHB_bridge.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\version.vhd" into library grlib
+Parsing package <version>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\stdlib.vhd" into library grlib
+Parsing package <stdlib>.
+Parsing package body <stdlib>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\config.vhd" into library grlib
+Parsing package <config>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\amba.vhd" into library grlib
+Parsing package <amba>.
+Parsing package body <amba>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\gencomp.vhd" into library techmap
+Parsing package <gencomp>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\devices.vhd" into library grlib
+Parsing package <devices>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\misc.vhd" into library gaisler
+Parsing package <misc>.
+Parsing package body <misc>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\state_machine.vhd" into library work
+Parsing entity <state_machine>.
+Parsing architecture <structural> of entity <state_machine>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\data_swapper.vhd" into library work
+Parsing entity <data_swapper>.
+Parsing architecture <structural> of entity <data_swapper>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\ahbmst.vhd" into library work
+Parsing entity <ahbmst>.
+Parsing architecture <rtl> of entity <ahbmst>.
+Parsing VHDL file "E:\lab_ERTS\lab_extension\lab_extension\AHB_bridge.vhd" into library work
+Parsing entity <AHB_bridge>.
+Parsing architecture <structural> of entity <ahb_bridge>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.91 secs
+ 
+--> 
+
+Total memory usage is 4467884 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

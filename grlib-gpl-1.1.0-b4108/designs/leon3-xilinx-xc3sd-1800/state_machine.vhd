@@ -35,8 +35,37 @@ architecture structural of state_machine is
   
 TYPE state_type is (idle, instr_fetch);  -- List your states here 	
 SIGNAL curState, nextState: STATE_TYPE;
-begin
+signal pull_zero: std_logic := '0'; -- Signal to pull some ports to zero
+signal pull_zero_vector: std_logic_vector(15 downto 0) := x"0000";
   
+--cortexm0ds_map: cortexm0ds
+--  port map (
+--    HCLK => clkm,
+--    HRESETn => rstn,
+--    
+--    HADDR => s_HADDR,
+--    HSIZE => s_HSIZE,
+--    HTRANS => s_HTRANS,
+--    HWDATA => s_HWDATA,
+--    HWRITE => s_HWRITE,
+--    HRDATA => s_HRDATA,
+--    HREADY => s_HREADY,
+--  -- Map to open
+--    HBURST => open,
+--    HMASTLOCK => open,
+--    HPROT => open,
+--    TXEV => open,
+--    LOCKUP => open,
+--    SYSRESETREQ => open,
+--    SLEEPING => open,
+--  -- Map to zero
+--    HRESP => pull_zero,
+--    NMI => pull_zero,
+--    RXEV => pull_zero,
+--    IRQ => pull_zero_vector
+--  );
+begin
+
 combi_nextState: process(curState, HTRANS, dmao)
   --variable v_dmaiStart : ahb_dma_out_type;
   --variable v_HREADY : std_logic;
@@ -62,38 +91,40 @@ BEGIN
     WHEN others => -- Fallback vals in case reaches other state
       nextState <= idle;
   end case;
-  
-  --dmai.start <= v_dmaiStart;
+	
+	--dmai.start <= v_dmaiStart;
   --HREADY <= v_HREADY;
   
 END PROCESS; -- combi_nextState
 ----------------------------------------
-combi_setVal: PROCESS(curState, dmao, HADDR, HSIZE, HTRANS, HWDATA, HWRITE)
+combi_setVal: PROCESS(clkm, curState, dmao, HADDR, HSIZE, HTRANS, HWDATA, HWRITE)
   variable v_dmaiStart : std_ulogic;
   variable v_HREADY : std_logic;
 BEGIN
-  v_dmaiStart := '0';
-  -- state idle
-  IF curState = idle THEN
-    v_HREADY := '1';
-    if HTRANS = "10" THEN
-      v_dmaiStart := '1';
-    end if;
-  -- state instr_fetch
-  ELSIF curState = instr_fetch THEN
-    v_HREADY := '0';
-    if dmao.ready = '1' THEN
-      v_HREADY := '1';
-    end if;
-  END IF;
-  -- Outputs vars to actual vals
-  dmai.start <= v_dmaiStart;
-  HREADY <= v_HREADY;
-  -- Passes values from dmao to other H-based ports
-  dmai.address <= HADDR;
-  dmai.size <= HSIZE;
-  dmai.wdata <= HWDATA;
-  dmai.write <= HWRITE;
+	if rising_edge(clkm) then
+		v_dmaiStart := '0';
+		-- state idle
+		IF curState = idle THEN
+			v_HREADY := '1';
+			if HTRANS = "10" THEN
+				v_dmaiStart := '1';
+			end if;
+		-- state instr_fetch
+		ELSIF curState = instr_fetch THEN
+			v_HREADY := '0';
+			if dmao.ready = '1' THEN
+				v_HREADY := '1';
+			end if;
+		END IF;	
+	end if;
+	-- Outputs vars to actual vals
+	dmai.start <= v_dmaiStart;
+	HREADY <= v_HREADY;
+	-- Passes values from dmao to other H-based ports
+	dmai.address <= HADDR;
+	dmai.size <= HSIZE;
+	dmai.wdata <= HWDATA;
+	dmai.write <= HWRITE;
   --dmai.busy <= HTRANS;
 END PROCESS; -- combi_out
 ----------------------------------------

@@ -1,0 +1,2 @@
+vhdtdtfi -lib grlib version.vhd -lib grlib stdlib.vhd -lib grlib config.vhd -lib grlib amba.vhd -lib techmap gencomp.vhd -lib grlib devices.vhd -lib gaisler misc.vhd -lib work state_machine.vhd -lib work data_swapper.vhd -lib work ahbmst.vhd -lib work AHB_bridge.vhd -prj lab_extension -o AHB_bridge.spl -module AHB_bridge -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 AHB_bridge.spl E:/lab_ERTS/lab_extension/lab_extension/AHB_bridge.sym 

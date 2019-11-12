@@ -1,0 +1,24 @@
+V3 17
+FL E:/lab_ERTS/lab_extension/lab_extension/amba.vhd 2011/06/28.11:56:34 P.15xf
+PH grlib/amba 1573575715 FL E:/lab_ERTS/lab_extension/lab_extension/amba.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 LB grlib \
+      PH grlib/config 1573575712 PB grlib/stdlib 1573575714 CD ahbctrl CD apbctrl \
+      CD ahbctrl_mb CD ahbdefmst
+PB grlib/amba 1573575716 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/amba.vhd PH grlib/amba 1573575715
+FL E:/lab_ERTS/lab_extension/lab_extension/config.vhd 2011/06/28.11:56:34 P.15xf
+PH grlib/config 1573575712 FL E:/lab_ERTS/lab_extension/lab_extension/config.vhd \
+      PB ieee/std_logic_1164 1335251622
+FL E:/lab_ERTS/lab_extension/lab_extension/devices.vhd 2011/06/28.11:56:34 P.15xf
+PH grlib/devices 1573575717 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/devices.vhd \
+      PB ieee/std_logic_1164 1335251622 LB grlib PB grlib/amba 1573575716
+FL E:/lab_ERTS/lab_extension/lab_extension/stdlib.vhd 2011/06/28.11:56:34 P.15xf
+PH grlib/stdlib 1573575713 FL E:/lab_ERTS/lab_extension/lab_extension/stdlib.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 LB grlib \
+      PH grlib/version 1573575711
+PB grlib/stdlib 1573575714 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/stdlib.vhd PH grlib/stdlib 1573575713
+FL E:/lab_ERTS/lab_extension/lab_extension/version.vhd 2011/06/28.11:56:34 P.15xf
+PH grlib/version 1573575711 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/version.vhd

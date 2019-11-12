@@ -1,0 +1,13 @@
+V3 39
+FL E:/lab_ERTS/lab_extension/lab_extension/misc.vhd 2011/06/28.11:56:34 P.15xf
+PH gaisler/misc 1573575719 FL E:/lab_ERTS/lab_extension/lab_extension/misc.vhd \
+      PB ieee/std_logic_1164 1335251622 LB grlib PB grlib/amba 1573575716 \
+      PH grlib/devices 1573575717 PB grlib/stdlib 1573575714 LB techmap \
+      PH techmap/gencomp 1573575718 LB gaisler CD rstgen CD gptimer CD ahbram \
+      CD ftahbram CD ftahbram2 CD ahbdpram CD ahbtrace CD ahbtrace_mb CD ahbtrace_mmb \
+      CD ahbmst CD ahbmst2 CD grgpio CD ahb2ahb CD ahbbridge CD ahbstat CD nuhosp3 \
+      CD logan CD apbps2 CD apbvga CD svgactrl CD ahbdma CD grfifo CD gradcdac \
+      CD grclkgate CD i2cmst CD i2cmst_gen CD i2cslv CD spictrl CD grsysmon \
+      CD gracectrl CD grgpreg CD memscrub CD ahb_mst_iface
+PB gaisler/misc 1573575720 \
+      FL E:/lab_ERTS/lab_extension/lab_extension/misc.vhd PH gaisler/misc 1573575719

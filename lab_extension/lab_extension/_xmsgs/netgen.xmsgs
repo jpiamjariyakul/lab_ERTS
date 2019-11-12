@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;0&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;1&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;2&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;3&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;4&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;5&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;6&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="warning" file="NetListWriters" num="677" delta="old" >Netgen has detected a port, <arg fmt="%s" index="1">ahbmo_hconfig&lt;7&gt;[31]</arg>, at instance, <arg fmt="%s" index="2">cm0_wrapper</arg>, that is declared as an array. Ports declared as arrays are not supported by NetGen and can not be properly reconstructed in the netlist. The array will be reconstructed as 1-D array
+</msg>
+
+<msg type="info" file="NetListWriters" num="633" delta="old" >The generated Verilog netlist contains Xilinx <arg fmt="%s" index="1">UNISIM</arg> simulation primitives and has to be used with <arg fmt="%s" index="2">UNISIM</arg> simulation library for correct compilation and simulation. 
+</msg>
+
+</messages>
+

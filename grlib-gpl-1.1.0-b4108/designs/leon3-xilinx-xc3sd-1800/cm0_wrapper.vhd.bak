@@ -6,9 +6,9 @@ library grlib;
 use grlib.amba.all;
 use grlib.stdlib.all;
 use grlib.devices.all;
-library techmap;
-use techmap.gencomp.all;
-use techmap.allclkgen.all;
+--library techmap;
+--use techmap.gencomp.all;
+--use techmap.allclkgen.all;
 library gaisler;
 --use gaisler.memctrl.all;
 --use gaisler.leon3.all;
@@ -19,7 +19,7 @@ use gaisler.misc.all;
 --library esa;
 --use esa.memoryctrl.all;
 
-use work.config.all;
+--use work.config.all;
 
 -- !!!: Declaring files in cm0_wrapper
 --use work.AHB_bridge.all;

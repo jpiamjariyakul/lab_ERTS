@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/lab_ERTS/lab_extension/lab_extension/CORTEXM0DS.v -lang verilog -prj lab_extension -o CORTEXM0DS.spl -module CORTEXM0DS -template C:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 CORTEXM0DS.spl E:/lab_ERTS/lab_extension/lab_extension/CORTEXM0DS.sym 
